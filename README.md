@@ -13,7 +13,7 @@ A news browsing app built using **SwiftUI + MVVM**, featuring clean architecture
 - 🔐 API Key secured using `.gitignore`
 
 ## 📸 Screenshots
-<img width="300" height="450" alt="Launchview" src="https://github.com/user-attachments/assets/7d2df882-055d-458a-be44-d82bb3745587" />
+<img width="300" height="650" alt="Launchview" src="https://github.com/user-attachments/assets/7d2df882-055d-458a-be44-d82bb3745587" />
 
 <img width="1179" height="2556" alt="Homeview" src="https://github.com/user-attachments/assets/b7e554c3-d1c3-45c0-84fc-b78e7d2f7ae6" />
 
