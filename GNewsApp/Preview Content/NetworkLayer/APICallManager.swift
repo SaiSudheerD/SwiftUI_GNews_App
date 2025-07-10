@@ -30,13 +30,3 @@ class APICallManager {
         }
     }
 }
-
-
-// MARK: Notes
-// we use throws outside the function and throw inside the functions.
-// we use throw for error and use return for returing the required data.
-// If we use async/awiat in function,  we have to use async/await everyWhere in to that functions
-
-// UIViewRepresentable is a protocol that allows to integrate UIKit into swiftUI interface, It acts as bridge to enable to access UIKit components like MKMapView( MK - MapKit), WebView and custom View subclasses with swiftUI.
-
-// Image is used to display assest images and system Image, but asyncImage is used for download and display the Image from Internet.

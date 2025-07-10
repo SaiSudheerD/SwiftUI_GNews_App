@@ -6,5 +6,5 @@
 //
 
 struct Secrets {
-    static let api_key = "your_api_key_here" // Google News API URL + API Key
+    static let api_key = "your_actual_api_key_here"
 }

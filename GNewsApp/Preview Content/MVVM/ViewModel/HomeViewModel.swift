@@ -15,7 +15,7 @@ class HomeViewModel: ObservableObject {
     
     
     func fetchNewsData() async {
-        guard let url = URL(string: Secrets.api_key) else { return }
+        guard let url = URL(string: "https://gnews.io/api/v4/search?q=news&lang=en&country=in&max=10&apikey=" + Secrets.api_key) else { return }
         isLoading = true
         errorMessage = nil
         do {

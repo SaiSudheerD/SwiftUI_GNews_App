@@ -21,7 +21,9 @@ struct HomeScreen: View {
                             .progressViewStyle(CircularProgressViewStyle())
                         Spacer()
                     }
-                } else {
+                } else if let error = viewModel.errorMessage {
+                    Text("Error: \(error)").foregroundColor(.red)
+                }else {
                     List {
                         if let articlesList = viewModel.newsModelData?.articles {
                             ForEach(articlesList, id: \.id) { article in
